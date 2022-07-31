@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Lobster+Two:ital,wght@0,700;1,400&family=Montserrat:wght@500;900&family=Poppins:wght@500&family=Roboto:wght@300;500&display=swap');
+
+body{
+
+    font-family: Roboto, sans-serif;
+}
+.my-btn{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #7a7a7a;
+    color: white;
+    transition: all 0.5s;
+}
+.my-btn:hover{
+    transform: scale(1.1);
+    background-color: #b674ec;
+    border: none;
+    color: white;
+}
+.my-bg-personal{
+    background-color: #12afe80c;
+}
+.my-logo{
+    font-family: 'Ubuntu', cursive;
+    font-size: 1.8rem;
+}
+.my-nav-menu li a{
+    transition: all 0.5s;
+    font-family: 'Roboto', sans-serif;
+}
+.my-nav-menu li a:hover{
+    background-color: rgb(65, 60, 75);
+    border-radius: 12px;
+    color: white;
+    transform: scale(1.1);
+}
+
+.menu-footer div{
+    margin: 0% 2%;
+    border-radius: 100%;
+    transition: all 0.5s;
+    padding: 0.2%;
+}
+.menu-footer div:hover{
+    transform: scale(1.2);
+    background-color: rgba(66, 26, 26, 0.355);
+    color: skyblue;
+}
